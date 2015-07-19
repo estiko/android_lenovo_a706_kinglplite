@@ -1245,7 +1245,6 @@ static int cpufreq_governor_interactive(struct cpufreq_policy *policy,
 			}
 
 			pcpu->max_freq = policy->max;
-
 		}
 		break;
 	}
