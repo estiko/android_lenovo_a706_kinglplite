@@ -2075,6 +2075,7 @@ static int shmem_parse_options(char *options, struct shmem_sb_info *sbinfo,
 			       bool remount)
 {
 	char *this_char, *value, *rest;
+	struct mempolicy *mpol = NULL;
 
 	while (options != NULL) {
 		this_char = options;
