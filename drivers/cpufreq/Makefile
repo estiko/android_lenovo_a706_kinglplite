@@ -31,6 +31,10 @@ obj-$(CONFIG_CPU_FREQ_GOV_DARKNESS)	+= cpufreq_darkness.o
 obj-$(CONFIG_CPU_FREQ_GOV_LULZACTIVE)	+= cpufreq_lulzactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_ALUCARD)	+= cpufreq_alucard.o
 obj-$(CONFIG_CPU_FREQ_GOV_WHEATLEY) 	+= cpufreq_wheatley.o
+obj-$(CONFIG_CPU_FREQ_GOV_VIRTOUS) 	+= cpufreq_virtuous.o
+obj-$(CONFIG_CPU_FREQ_GOV_ONDEMANDX) 	+= cpufreq_ondemandx.o
+obj-$(CONFIG_CPU_FREQ_GOV_SKYWALKER) 	+= cpufreq_skywalker.o
+obj-$(CONFIG_CPU_FREQ_GOV_SAVAGEDZEN) 	+= cpufreq_savagedzen.o
 
 # CPUfreq cross-arch helpers
 obj-$(CONFIG_CPU_FREQ_TABLE)		+= freq_table.o

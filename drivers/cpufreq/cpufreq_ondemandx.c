@@ -1,5 +1,5 @@
 /*
-* drivers/cpufreq/cpufreq_ondemandX.c
+* drivers/cpufreq/cpufreq_ondemandx.c
 *
 * Copyright (C) 2001 Russell King
 * (C) 2003 Venkatesh Pallipadi <venkatesh.pallipadi@intel.com>.
