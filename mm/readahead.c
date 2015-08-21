@@ -44,7 +44,7 @@ static int __init readahead(char *str)
 	default_backing_dev_info.ra_pages = max_readahead_pages;
 
 	return 0;
-}
+};
 
 early_param("readahead", readahead);
 
